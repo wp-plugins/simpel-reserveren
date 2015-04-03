@@ -392,7 +392,11 @@
 .leaflet-popup {
     position: absolute;
     text-align: center;
+
+    img, iframe, object{
+        max-width: 687px !important;
     }
+}
 .leaflet-popup-content-wrapper {
     padding: 1px;
     text-align: left;
@@ -402,7 +406,9 @@
 .leaflet-popup-content {
     margin: 13px 19px;
     line-height: 1.4;
-    }
+    width: auto !important;
+    max-width: 687px;
+}
 .leaflet-popup-content p {
     margin: 18px 0;
     }
