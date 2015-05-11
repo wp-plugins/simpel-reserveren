@@ -61,7 +61,7 @@ Class Arrangementen extends Base_Class {
 
     function get_accommodaties($aankomst, $vertrek, $arrangement_id)
     {
-        $result = [];
+        $result = array();
         $arrangement = new Arrangement($arrangement_id);
         $accommodaties = $this->wpdb->get_results('select * from ' . SIMPEL_DB_PREFIX . 'accommodatie order by title');
 
@@ -84,7 +84,7 @@ Class Arrangementen extends Base_Class {
             $title_field .= '_' . ICL_LANGUAGE_CODE;
         }
 
-        $result = [];
+        $result = array();
         $accommodatie = new Accommodatie($accommodatie_id);
         $arrangementen = $this->wpdb->get_results('select * from ' . SIMPEL_DB_PREFIX . 'arrangementen order by '.$title_field);
 

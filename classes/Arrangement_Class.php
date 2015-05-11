@@ -104,7 +104,7 @@ class Arrangement extends Base_Class
                     return $this->beschikbaarheid;
                 }
 
-                $this->beschikbaarheid = [];
+                $this->beschikbaarheid = array();
                 $accommodaties = $this->get_possible_accommodaties();
 
                 // create the combined availability of all the
@@ -144,7 +144,7 @@ class Arrangement extends Base_Class
             $accommodaties = $this->wpdb->get_results('select id from ' . SIMPEL_DB_PREFIX . 'accommodatie order by title');
         } else {
             $accommodatie_ids = $this->wpdb->get_results('select accommodatie_id from ' . SIMPEL_DB_PREFIX . 'arrangementen_per where arrangement_id = "' . $this->id . '"');
-            $ids = [];
+            $ids = array();
             foreach ($accommodatie_ids as $acco) {
                 if (!in_array($acco->accommodatie_id, $ids)) {
                     $ids[] = $acco->accommodatie_id;
@@ -152,7 +152,7 @@ class Arrangement extends Base_Class
             }
             $accommodaties = $this->wpdb->get_results('select id from ' . SIMPEL_DB_PREFIX . 'accommodatie where id in (' . implode(',', $ids) . ') order by title');
         }
-        $result = [];
+        $result = array();
         foreach ($accommodaties as $acco) {
             $result[] = new Accommodatie($acco->id);
         }

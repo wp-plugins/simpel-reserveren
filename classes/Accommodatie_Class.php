@@ -635,7 +635,7 @@ class Accommodatie extends Base_Class
                 // check if is valid in this period
                 if (!$this->arrangement->altijd_geldig) {
                     $periodes = $this->wpdb->get_results($this->wpdb->prepare('select periode_id from ' . SIMPEL_DB_PREFIX . 'arrangementen_per where arrangement_id = "%d" and accommodatie_id = "%d"', $this->arrangement->id, $this->id));
-                    $arrangement_periodes = [];
+                    $arrangement_periodes = array();
                     foreach ($periodes as $row) {
                         if (!in_array($row->periode_id, $arrangement_periodes)) {
                             $arrangement_periodes[] = $row->periode_id;
