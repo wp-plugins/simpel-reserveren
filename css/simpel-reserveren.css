@@ -1,0 +1,356 @@
+.simpel-reserveren.collapse,
+.simpel-reserveren .collapse{ height: auto; }
+.simpel-reserveren select{ width: auto; max-width: 100%; }
+
+/* Zoek blok */
+.simpel-reserveren.sr-order-box{ 
+	z-index: 1000; 
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+.simpel-reserveren .sr-order-box .pursuaision{
+  margin: 10px -15px;
+}
+.simpel-reserveren .cont{ margin: 0 15px; }
+.container > .simpel-reserveren.container{ padding-left: 0; padding-right: 0; }
+.simpel-reserveren img{ max-width: 100% }
+.simpel-reserveren.sr-order-box .row{ margin-bottom: 10px; }
+.simpel-reserveren #zoek-form .sr-primary-button{ font-weight: bold; padding: 12px 0; margin-top: 14px; width: 100%;  }
+#aankomst.jquery-ui, #vertrek.jquery-ui{ background: url('../images/cal.png') no-repeat right 5px center #fff; cursor: pointer; }
+
+
+/* Zoeken pagina */
+.simpel-reserveren .sr-primary-button{ font-size: 18px; white-space: normal;}
+.simpel-reserveren .sr-zoek-head{ margin-top: 0; }
+.view-modes{
+  font-size: 24px;
+}
+.view-modes a{
+  color: #777;
+}
+.view-modes a.selected{
+  color: #333; 
+}
+.ui-tooltip{ max-width: 368px !important; }
+
+.simpel-reserveren .square article.sr-zoekresultaat .sr-boeken-alternatieve-prijs{ padding: 2px 0; cursor: pointer; line-height: 28px;} 
+.simpel-reserveren .square .sr-periode,
+.simpel-reserveren .square .sr-korting,
+.simpel-reserveren .square .sr-prijs,
+.simpel-reserveren .square .sr-datum{ width: 50% !important; }
+.simpel-reserveren .square .main-img{ border-top-right-radius: 6px; border-top-left-radius: 6px; width: 100%; }
+.simpel-reserveren .square .sr-boeken-alert{ padding: 5px 15px; margin: -5px -10px 10px; line-height: 20px; }
+
+
+.simpel-reserveren .list .sr-boeken-alert{
+  padding: 5px 15px;
+  margin: 0 -15px 10px 0;
+  line-height: 20px;
+}
+.simpel-reserveren .list .simpel-melding ul{
+  list-style: disc;
+  margin: 10px 0 0;
+  padding: 0 0 0 30px;
+  line-height: 1.5;
+}
+.simpel-reserveren .list .row.sr-zoekresultaten{
+  margin-left: 0;
+  margin-right: 0;
+}
+.simpel-reserveren .list .sr-images{
+  width: 33.33333333333333%;
+  float: left;
+  padding: 0 15px 0 0;
+}
+.simpel-reserveren .list .main-img{ border-bottom-right-radius: 6px; border-top-left-radius: 6px; width: 100%; }
+.simpel-reserveren .list .sr-text{
+  width: 66.66666666666666%;
+  float: right;
+  padding: 0 15px 0 0;
+}
+.simpel-reserveren .list .sr-boeken{
+  width: 66.66666666666666%;
+  float: right;
+  padding: 10px 15px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.simpel-reserveren .list .col-sm-3.thumb{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.simpel-reserveren .list article.sr-zoekresultaat .sr-boeken-alternatieve-prijs{ padding: 2px 0; cursor: pointer; line-height: 18px;} 
+
+
+.simpel-reserveren article.sr-zoekresultaat{ 
+	background: #fff;
+	border: 1px solid #efefef;
+	display: inline-block;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 15px;
+	cursor: pointer;
+	position: relative;
+  padding-bottom: 10px; 
+  max-width: 100%;
+}
+.simpel-reserveren article.sr-zoekresultaat:hover{ box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.7); } 
+.simpel-reserveren article.sr-zoekresultaat .popover{ max-width: 350px; width: 350px; }
+.simpel-reserveren article.sr-zoekresultaat h2,
+.simpel-reserveren article.sr-zoekresultaat h3,
+.simpel-reserveren article.sr-zoekresultaat p{ padding: 0 10px; } 
+.simpel-reserveren article.sr-zoekresultaat .thumb{ height: 50px; margin: 10px 0;} 
+.simpel-reserveren article.sr-zoekresultaat .sr-boeken{ line-height: 30px; } 
+.simpel-reserveren article.sr-zoekresultaat .sr-boeken .sr-boeken-prijs-voor{ font-size: 22px; } 
+.simpel-reserveren article.sr-zoekresultaat .sr-boeken-alternatieve-prijs:hover{ background-color: #cce8ea; } 
+
+.simpel-reserveren .filter-info{ margin: 15px 0; color: #777; font-style: italic; }
+.simpel-reserveren .filter{ line-height: 24px; margin-bottom: 3px; padding: 3px 0 3px 3px; }
+.simpel-reserveren .filter{ display: block; text-decoration: none; font-size: 14px; }
+.simpel-reserveren .filter .facil-icon{ font-size: 20px; margin-right: 10px; position: absolute; margin-top: 3px; }
+.simpel-reserveren .filter:hover{ text-decoration: none; }
+.simpel-reserveren .filter .title{ padding-left: 34px; }
+.simpel-reserveren .filter:hover .title{ text-decoration: underline; }
+.simpel-reserveren .filter.selected{ color: #fff; background: #48cc3e; margin: 0 -10px 3px; padding: 3px 5px 3px 13px;}
+.simpel-reserveren .filter.selected:hover{ background-color: #f52c2c; }
+.simpel-reserveren .filter.del{ color: #016FB0; }
+.simpel-reserveren .filter .kop{ font-weight: bold; color: #333; margin: 15px 10px 3px 10px; }
+.simpel-reserveren .filter .info{ font-size: 12px; margin: 10px; font-style: italic; }
+.simpel-reserveren .filter input[type=checkbox]{ float: left; margin: 5px 10px 0 10px; clear: both; }
+.simpel-reserveren .filter .nr{ float: right; color: #999; }
+.simpel-reserveren .filter .actief{ float: right; color: #fff; font-size: 11px;}
+.simpel-reserveren .filter:hover .nr{ color: #333; }
+
+/* Accommodatie pagina */
+.simpel-reserveren .sr-accommodatie .thumb{ margin-top: 5px; }
+.simpel-reserveren .alert.no-margin{ margin: 0; }
+.simpel-reserveren .alert.alert-boeken{ margin-top: 20px; }
+.simpel-reserveren .alert.alert-boeken h2{ margin-top: 0; }
+.simpel-reserveren .sr-accommodatie .faciliteiten ul{ list-style: none; margin: 0 0 40px; }
+.simpel-reserveren .sr-accommodatie .faciliteiten li{ margin: 0 0 5px 0; }
+.simpel-reserveren .sr-accommodatie .faciliteiten li .facil{ font-size: 24px; margin-right: 10px; color: #333; }
+#kalender{ position: relative; }
+#legenda{ font-size: 12px; line-height: 20px; padding: 0 0 5px; margin: 0;}
+#legenda .blokje{ width: 15px; height: 15px; float: left; margin: 1px 10px 1px 0; clear: left; }
+#legenda .blokje.aankomst{ background: #50b431; }
+#legenda .blokje.beschikbaar{ background: #f5f5f5; }
+#legenda .blokje.bezet{ background: #ED1C24; }
+#legenda .blokje.geselecteerd{ background: #1870C1; }
+#legenda .blokje.geselecteerd.bezet{ background: #834672; }
+#legenda .uitleg{ float: right; width: 150px; font-size: 11px; color: #777; }
+
+/* Boeken pagina */
+.simpel-reserveren .formular .row{ margin-bottom: 14px; }
+.simpel-reserveren .sr-extras select{ margin-left: -20px; float: left;
+    margin-right: 6px;
+    height: 24px;}
+.simpel-reserveren .sr-totaal td{ border-color: #000 !important; color: #000; font-weight: bold; }
+.simpel-reserveren label.error,
+.simpel-reserveren .req{ color: red; }
+.simpel-reserveren input.error{ border-color: red; }
+.simpel-reserveren .formError{ display: none; }
+.simpel-reserveren #u-bent-klaar{ background: url('../images/valid.png') no-repeat; padding: 0px 0px 0px 30px; font-size: 14px; margin-top: 10px; color: #009500; font-weight: bold; display: none; }
+.simpel-reserveren .progress-bar.grey{ background-color: #eee; }
+.simpel-reserveren .progress-bar.done{ opacity: .9; filter: alpha(opacity=90);}
+.simpel-reserveren .progress-bar.todo{ opacity: .4; filter: alpha(opacity=40);}
+
+#plattegrond-layer{ background: #fff; position: fixed; top: 0; left: 0; z-index: 9999; }
+#plattegrond-layer .plattegrond-form{ padding: 20px 10px; }
+#plattegrond-layer .row,
+#plattegrond-layer .form-outer,
+#plattegrond-layer .plattegrond-form,
+#plattegrond-layer .zoom-outer{ height: 100%; }
+#plattegrond-layer .zoom-outer{ padding-right: 0;}
+#plattegrond-layer .form-outer{ padding-left: 0; }
+#plattegrond-layer textarea{ height: 50%; margin-top: 12px; }
+#plattegrond-layer .plattegrond-phone-header{ position: absolute; top: 0; width: 96%; padding: 5px 2%; background: #217dbb; color: #fff; font-weight: bold; z-index: 9; }
+#plattegrond-layer .sr-close-form{ margin-top: 10px; }
+#plattegrond-layer .round-close{ width: 24px; height: 24px; border-radius: 24px; line-height: 24px; background: #000; color: #fff; font-size: 14px; opacity: 1; text-align: center; margin-right: 10px; }
+.smooth_zoom_preloader { background-image: url('../images/preloader.gif'); } 
+.smooth_zoom_icons { background-image: url('../images/icons.png'); }
+.sr-order-box.static.top .col-xs-6 { width: 16.666666666666664%; }
+
+
+@media only screen and (max-width: 767px) {
+
+  .simpel-reserveren-mobile-boeken {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		z-index: 9999;
+	}
+
+  #plattegrond-layer .form-outer{ position: absolute; top: 0; width: 100%; }
+  #plattegrond-layer .plattegrond-form{ z-index: 29; position: absolute; width: 100%; }
+
+  .only-phone .nav.nav-tabs{
+  	margin: 60px 15px 0 15px;
+  }
+
+  .only-phone.sr-boeken-tabs .nav.nav-tabs{ 
+  	margin-top: 0;
+  }
+
+  .simpel-reserveren .sr-boeken-proces{
+  	margin-top: 60px;
+  }
+
+  /* line 1, ../scss/_mobile.scss */
+  .hidden-phone {
+    display: none !important; }
+
+  /* line 5, ../scss/_mobile.scss */
+  .sr-order-box {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 100% !important;
+    margin: 0 !important;
+    z-index: 2000; }
+
+  /* line 13, ../scss/_mobile.scss */
+  .tab-pane {
+    display: none; }
+
+  /* line 17, ../scss/_mobile.scss */
+  .tab-pane.visible {
+    display: block; } }
+@media only screen and (min-width: 0px) {
+  /* line 1, ../scss/_base.scss */
+
+
+  /* line 5, ../scss/_base.scss */
+  .sr-order-box {
+    background-color: #EBEBEB;
+    padding: 10px 0 0; }
+    
+  .sr-order-box.fixed {
+    padding: 10px 0 4px; }
+
+
+  /* line 12, ../scss/_base.scss */
+  .sr-zoekresultaat img {
+    max-width: 100% !important;
+    height: auto;
+    display: block; }
+
+  /* line 19, ../scss/_base.scss */
+  .sr-boeken {
+    background-color: #EBEBEB;
+    padding: 5px 10px;
+    margin-bottom: 10px; }
+    /* line 24, ../scss/_base.scss */
+    .sr-zoekresultaten .sr-boeken p {
+      margin: 12px 0 0; }
+    /* line 28, ../scss/_base.scss */
+    .sr-boeken .sr-boeken-prijs {
+      float: left; }
+    /* line 32, ../scss/_base.scss */
+    .sr-boeken .sr-boeken-button {
+      float: right; 
+      margin-top: 12px;
+    }
+    .sr-boeken .sr-boeken-button.no-discount {
+      margin-top: 4px; 
+      margin-bottom: 4px; 
+    }
+
+  /* line 37, ../scss/_base.scss */
+  .sr-boeken-proces {
+    
+    padding: 5px 10px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+  }
+
+  /* line 43, ../scss/_base.scss */
+  .sr-volgende-stap {
+    
+    padding: 5px 10px; }
+
+  /* line 48, ../scss/_base.scss */
+  .sr-boeken-prijs-van {
+    text-decoration: line-through; 
+    white-space:nowrap;
+  }
+  .sr-boeken-prijs-voor {
+    white-space:nowrap;
+  }
+
+  /* line 53, ../scss/_base.scss */
+  .sr-kassabon img {
+    max-width: 100% !important;
+    height: auto;
+    display: block; } }
+@media only screen and (min-width: 768px) {
+  
+  .simpel-reserveren .square .acco{ 
+    width: 50%; 
+    float: left; 
+    padding: 0 15px; 
+    position: relative; 
+  }
+  .simpel-reserveren-mobile-boeken {
+  	display: none !important;
+  }
+
+  /* line 1, ../scss/_768.scss */
+  .sr-order-box {
+    display: block !important; }
+
+  /* line 5, ../scss/_768.scss */
+  .sr-order-box.fixed {
+    position: fixed; }
+
+  /* line 9, ../scss/_768.scss */
+  .sr-order-box.static {
+    position: relative;
+    top: 0;
+    left: 0; }
+
+  /* line 15, ../scss/_768.scss */
+  .sr-order-box.static.top {
+    position: fixed;
+    top: auto;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    border-radius: 0;
+    -webkit-animation: slide 1s forwards;
+    animation: slide 1s forwards;
+  }
+
+  @-webkit-keyframes slide {
+    100% { bottom: 0; }
+  }
+
+  @keyframes slide {
+      100% { bottom: 0; }
+  }
+
+  .sr-order-box.static.top h3,
+  .sr-order-box.static.top .persuasion{
+    display: none;
+  }
+
+  /* line 25, ../scss/_768.scss */
+  .sr-filter-box {
+    background-color: #EBEBEB;
+    padding: 5px 10px; }
+
+  /* line 12, ../scss/style.scss */
+  .only-phone {
+    display: none !important; } 
+}
+#resultaten{ padding-top: 20px; }
+.clear{ clear: both; }

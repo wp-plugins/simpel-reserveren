@@ -1,0 +1,677 @@
+html, body{ height: 100%; }
+a:active, a:focus{ outline: none; }
+.clear{ clear: both; }
+.strong{ font-weight: bold; }
+.ui-tooltip { max-width: 800px !important }
+.ui-tooltip .label{ margin: 5px 0 0; font-size: 16px; font-style: italic; color: #777; }
+.ui-datepicker{ z-index: 10000 !important;}
+.accommodaties .acco{ width: 150px; margin: 0 20px 50px 0; float: left; height: 170px; cursor: pointer; }
+.accommodaties .acco:hover{ background-color: #FFF8D3; }
+.accommodaties .acco h4{ font-weight: normal; height: 46px; }
+
+.front #beschikbaarheid .maand{ width: 220px; margin: 0px; margin-top: 4px; }
+.front #beschikbaarheid .maand-title{ padding-bottom: 2px; font-style: normal; font-weight: bold; }
+.front #beschikbaarheid .button{ background-color: #eee; border: 1px solid #777; border-radius: 4px; color: #333; padding: 3px 8px; margin-top: 8px; }
+.front #beschikbaarheid .button:hover{ background-color: #ddd; }
+.front #beschikbaarheid th{ font-weight: normal; font-size: 12px; text-align: center; }
+.front #beschikbaarheid-data{ min-height: 170px; }
+.front #beschikbaarheid td.free{ background-color: #63CD65; cursor: default; }
+.front #beschikbaarheid td.free.arrival{ background-color: #00AF00; cursor: pointer;  }
+.front #beschikbaarheid td.free.arrival:hover{ background-color: #008800; }
+
+#kalender{  }
+.datepick{ width: auto !important;}
+#legenda{ font-size: 12px; line-height: 20px; padding: 5px 2px; margin: 5px 0 0 0;}
+#legenda .blokje{ width: 15px; height: 15px; float: left; margin: 1px 10px 1px 0; clear: left; }
+#legenda .blokje.beschikbaar{ background: #009500; }
+#legenda .blokje.bezet{ background: #ED1C24; }
+#legenda .blokje.geselecteerd{ background: #1870C1; }
+#legenda .blokje.geselecteerd.bezet{ background: #834672; }
+#legenda .uitleg{ float: right; width: 150px; font-size: 11px; color: #777; }
+
+.zoek-container #zoeken{ background: #fff; padding: 10px; border: 1px solid rgba(0, 0, 0, .5); border-radius: 3px; }
+#zoeken input[type=text], #zoeken select{ padding: 3px; border: 1px solid #ddd; border-radius: 3px; margin: 0 0 4px; }
+#zoeken #aankomst.jquery-ui, #zoeken #vertrek.jquery-ui{ background: url('../images/cal.png') no-repeat right 5px center #fff; cursor: pointer; }
+#zoeken table{ width: 100%; }
+#zoeken td{ padding: 0px; width: 50%; font-size: 12px; }
+#zoeken input[type=submit]{ padding: 10px 20px 6px !important; }
+
+.booking table.prijzen td{ text-align: left; }
+.booking .error{ color: #f00; padding-left: 5px; margin-top: 4px; margin-bottom: 4px; font-size: 12px; }
+.booking .head{ color: #333; border-bottom: 1px solid #ddd; padding-left: 5px; margin-top: 4px; margin-bottom: 4px; font-size: 12px; }
+.booking .naam{ font-size: 12px;white-space: nowrap}
+.booking .aanbieding{ text-decoration: line-through; margin-left: 5px; }
+.booking .prijs{ font-weight: bold; color: #ed1c24; font-size: 18px; float: left; margin-left: 5px; }
+.booking .nu-boeken{ font-weight: bold; background-color: #ed1c24; color: white; border: none; padding: 2px 5px; border-radius: 4px; float: right; font-size: 16px; }
+.booking .nu-boeken:hover{ background-color: #990000; cursor: pointer; }
+
+
+.key{ width: 80px; }
+
+input.validation-failed, textarea.validation-failed{ border: 1px solid red; }
+.req{ color: red; }
+
+/* .zoek-container #primary{ width: 300px; float: left; position: relative; margin: 0; padding: 0; } */
+.zoek-container #content{  }
+/* .boeken-container #primary{ background: #e2eaf4; } */
+.sidebar.left{ float: left; }
+.boeken-container {  }
+.boeken-container #content{ width: 620px; margin-left: 0px; }
+.zoeken-result .item{ border-top: 1px solid #eee; padding: 15px 0px; min-height: 100px; line-height: 150%; position: relative; }
+.zoeken-result .item:hover{ background: #E2EAF4; cursor: pointer; }
+.zoeken-result .item:hover .naam a.accommodatie{ color: #000; text-decoration: underline; }
+.zoeken-result .afbeeldingen{ width: 20%; float: left; position: relative; }
+.zoeken-result .afbeeldingen .big{ width: 90%; height: 100px; overflow: hidden; }
+.zoeken-result .afbeeldingen .thumb{ width: 28%; height: 35px; overflow: hidden; float: left; margin: 5px 3% 0 0;}
+.zoeken-result .afbeeldingen .thumb img{ width: 100%; }
+.zoeken-result .prijs{ font-weight: bold; color: #ed1c24; font-size: 20px; line-height: 110%; float: right; width: 15%; text-align: right; }
+.zoeken-result .prijs a{ margin-top: 10px; }
+.zoeken-result .prijs .melding{ font-size: 11px; font-weight: normal; color: #777; line-height: 14px; margin-bottom: 3px;  background-color:#ffa; border:1px solid #cc9; padding:3px; margin-left: 4px;}
+.zoeken-result .prijs .melding .red{ color: #ED1C24; }
+.zoeken-result .prijs .eenheid{ font-size: 11px; font-weight: normal; color: #777; line-height: 14px;  }
+.zoeken-result .origineel{ font-weight: bold; color: #777; font-size: 14px; text-decoration: line-through; }
+.zoeken-result .aanbieding{ font-weight: bold; color: #333; font-size: 14px; }
+.zoeken-result .naam a.accommodatie{ font-size: 18px; font-weight: bold; text-decoration: none; }
+.zoeken-result .naam{ float: left; width: 63%; }
+.zoeken-result .info{ float: left; width: 63%; }
+.zoeken-result .aanbiedingen{ float: left; margin-top: 4px; }
+.zoeken-result .aanbiedingen ul{ margin: 0px !important; }
+.zoeken-result .aanbiedingen li{ list-style: none; display: block; padding: 3px 6px; background: #eee; border-radius: 4px; margin: 0 5px 5px 0; float: left; }
+.zoeken-result .item:hover .aanbiedingen li{ background: #1870C1; color: white; }
+
+.zoeken-result .alternatieve-prijzen { float: left; width: 63%; padding-top: 3px; margin-top: 10px; border-top: 1px solid #eee;}
+.zoeken-result .item:hover .alternatieve-prijzen{ border-color: #cbd9ea; }
+.alternatieve-prijzen table{ border-spacing:0; border-collapse:collapse; width: 100%; }
+.alternatieve-prijzen table tr:hover{ background: #c4d6ec; cursor: pointer; }
+.alternatieve-prijzen table tr:hover a{ text-decoration: underline; }
+.alternatieve-prijzen table td{ padding: 2px 5px 2px 0;  }
+.alternatieve-prijzen table td.alt-prijs{ color: #ED1C24; font-weight: bold; }
+.alternatieve-prijzen table td.alt-origineel{ color: #777; font-weight: bold; text-decoration: line-through; }
+.alternatieve-prijzen table td.boek-nu{ text-align: right; width: 60px; }
+.alternatieve-prijzen table td.boek-nu a{ font-weight: bold; color: #09559B; white-space: nowrap; }
+
+.filter{ line-height: 24px; }
+.filter a{ display: block; text-decoration: none; background: url('../images/checkbox.png') no-repeat center left; padding-left: 20px;  font-size: 14px; }
+.filter a:hover{ text-decoration: underline; background-image: url('../images/checkbox-checked.png');}
+.filter a.selected{ color: #fff; background: url('../images/checkbox-checked.png') no-repeat 10px 6px #48cc3e; margin: 0 -10px; padding: 0 5px 0 30px;}
+.filter a.selected:hover{ background-color: #f52c2c; background-image: url('../images/checkbox.png');}
+.filter a.del{ color: #016FB0; }
+.filter .kop{ font-weight: bold; color: #333; margin: 15px 10px 3px 10px; }
+.filter .info{ font-size: 12px; margin: 10px; font-style: italic; }
+.filter input[type=checkbox]{ float: left; margin: 5px 10px 0 10px; clear: both; }
+.filter a .nr{ float: right; color: #999; }
+.filter a .actief{ float: right; color: #fff; font-size: 11px;}
+.filter a:hover .nr{ color: #333; }
+
+.kassabon{ clear: both; }
+.kassabon .periode{ margin: 0; background: #007CC3; color: #fff; padding: 5px 10px 0; border-radius: 8px;}
+.boeken-container #primary{ float: right; background: #E2EAF4; padding:10px;}
+.kassabon .periode h2{ color: white; margin: 10px 0; }
+.kassabon h2{ clear: none; }
+.kassabon h2.camping a{ color: #333; font-size: 16px; }
+.kassabon input[type=text]{ width: 130px; padding: 3px; background: url('../images/cal.png') no-repeat 110px 4px #fff; border: 1px solid #ddd; border-radius: 3px; }
+.kassabon label{ width: 100px; float: left; display: block; }
+#kassabon{ line-height: 150%; margin-top: 10px; font-size: 14px; color: #333; }
+#kassabon .euro{ white-space: nowrap; color: #000 ;}
+#kassabon td{ vertical-align: top; }
+#kassabon .camping{ color: #777; }
+#kassabon .acco{ font-weight: bold; margin: 0px; }
+#kassabon .aanbieding{ text-decoration:line-through; color: #777; white-space: normal; }
+#kassabon .aanbieding.omschrijving{ text-decoration: none; }
+#kassabon .datum{ font-size: 14px; color: #666; }
+#kassabon .subtotaal td{ border-top: 1px solid #000; font-weight: bold; padding-top: 3px;  }
+#kassabon .totaal td{ font-weight: bold; padding: 14px 2px; font-size: 18px; background: #9ec9e5; }
+#kassabon .title{ width: 150px; overflow: hidden; }
+.kassabon .acco{ margin-top: 20px; }
+.kassabon .img{ float: left; width: 140px; }
+.kassabon ul, ul.huisinfo{ list-style: none !important; padding: 0; margin: 3px 0 !important; float: left; font-size: 12px; width: 124px;}
+.kassabon ul li, ul.huisinfo li{ background: url('../images/sprite.png') no-repeat 0px 2px; padding-left: 30px; }
+.kassabon ul li.personen, ul.huisinfo li.personen{ background-position: 0px -28px; }
+.kassabon ul li.huisdieren, ul.huisinfo li.huisdieren{ background-position: 0px -58px; }
+.kassabon .beste-prijs { font-size: 16px; padding: 10px 0;}
+.kassabon .beste-prijs img{ margin-right: 5px; }
+.kassabon h3{ color: #009500; font-weight: bold; font-size: 18px; margin: 0 0 10px; }
+.kassabon .print{ background: url('../images/print.png') no-repeat right center; padding: 10px 0; }
+.kassabon .print { font-weight: bold; font-size: 14px; color: #007cc3; }
+
+
+.postbox input, .postbox select{  }
+.postbox input.floatright{ float: right; }
+
+.extra-info{ width: 16px; height: 16px; background: url('../images/info.png'); float: right; margin: 2px 0 0 4px; }
+
+.containerBottom{ width: 890px; }
+.accommodatie, .boeken-container{ position: relative; min-height: 100%; }
+.accommodatie #accommodatie-lees-meer{ float: right; cursor: pointer; font-weight: bold; display: block; background: url('../images/arrow-down.png') no-repeat 7px 9px #fff; position: relative; z-index: 2; margin-top: -20px; padding: 3px 0 0 20px; }
+.accommodatie #accommodatie-lees-meer:hover{ text-decoration: underline; }
+
+.accommodatie .acco-img{ width: 250px; margin: 0 10px 10px 0; float: left; }
+.accommodatie .acco-img img{ width: 100%; }
+.accommodatie h1{ margin: 2px 0 8px 0;  color: #1695ca; font-size: 28px; clear: none; font-weight: bold; }
+.accommodatie h2{ margin: 12px 0 8px 0;  color: #1695ca; font-size: 14px; border-bottom: 1px solid #eee; clear: none; }
+.accommodatie h2.camping{ margin: 0; border: none; }
+.accommodatie h2.camping a{ color: #333; }
+.accommodatie ul{ padding: 0; }
+.accommodatie .title h1{ margin-left: 260px; font-size: 20px; }
+.accommodatie .more{ display: block; float: left; background: #E2EAF4; padding: 3px 10px; border-radius: 4px; color: #09559B; }
+.accommodatie .more:hover{ background: #C4D6EC; }
+.accommodatie .plattegrond{ float: right; background: url('../images/plattegrond.png') no-repeat; padding: 3px 0 0 100px; display: block; height: 64px; margin-bottom: -30px; }
+.accommodatie .plattegrond:hover{ text-decoration: underline }
+.accommodatie .alternatieve-prijzen{ clear: both; margin-bottom: 12px; }
+
+.accommodatie .faciliteiten{ width: 48% !important; float: left; margin: 0 20px 10px 20px; clear: both; }
+.accommodatie .faciliteiten ul{ margin-left: 20px; }
+.accommodatie .faciliteiten ul li{ width: 50%; float: left; }
+.accommodatie .afbeeldingen{ width: 48% !important; margin: 0 0 10px 0; float: right;}
+.accommodatie .afbeeldingen .thumb{ border-radius: 4px; margin: 0 10px 10px 0; float: left; box-shadow: 0px 1px 2px rgba(0, 0, 0, .3); }
+.accommodatie .afbeeldingen .thumb:hover{ box-shadow: 0px 2px 4px rgba(0, 0, 0, .5); }
+.accommodatie .afbeeldingen .thumb:nth-child(4n){ margin-right: 0px; }
+.accommodatie .afbeeldingen .thumb img{ margin: 0px !important; width: 90px; display: block; border-radius: 4px; } 
+
+.camping .hide{ display: none; }
+.camping .omschrijving.meer{ border-bottom: 1px solid #ddd; line-height: 24px; position: relative; margin: 20px 0 40px; }
+.camping .omschrijving.meer .inner{ position: absolute; left: 50%; margin: -16px 0 0 -100px; width: 180px; padding: 5px 10px; border: 1px solid #ddd; border-radius: 4px; background: #fff; font-size: 12px; font-weight: bold; text-align: center; }
+.camping .omschrijving.meer .inner:hover{ background-color: #d2ecf9; cursor: pointer;  }
+
+.camping #fotos .big-thumb{ width: 48%; float: left; margin: 0 2% 10px 0; }
+.camping #fotos .big-thumb:nth-child(odd):not(:first-child){ clear:both; }
+.camping #fotos .big-thumb img{ max-width: 100%; }
+.camping .block.half{ width: 50%; float: left; margin-bottom: 20px; position: relative; }
+.camping .block.half:nth-child(2){ width: 48%; float: right; }
+.camping .block.half:nth-child(3){ clear: both; }
+.camping .block .thumb{ float: left; margin: 0 20px 10px 0;}
+.ui-widget-content, 
+.ui-widget-content a{ color: inherit; }
+.camping #tabs{ font-size: 14px; }
+.camping #tabs h2{ font-size: 22px; }
+.camping #overzicht .acco{ width: 48%; float: left; margin: 0 2% 10px 0; }
+.camping #overzicht .acco .img{ height: 100px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+.camping #overzicht .acco a{ text-decoration: none; color: #555; }
+.camping #overzicht .acco:hover{ background-color: #d2ecf9; cursor: pointer; }
+.camping #overzicht .acco:hover .img{ opacity: .8 }
+
+.camping #accommodaties .acco{ margin: 10px 0; border-bottom: 1px solid #eee; clear: both; }
+.camping #accommodaties .acco .img{ height: 150px; width: 200px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; float: left; margin: 0 20px 0 0; }
+.camping #accommodaties .acco:hover{ background-color: #d2ecf9; cursor: pointer; }
+
+#prijzen{ margin: 10px 0 0; color: #333; font-size: 12px; }
+#prijzen .head{ margin-bottom: 4px; padding-bottom: 0px; margin-top: 8px; color: #333; font-weight: bold;  font-size: 14px; }
+#prijzen .prijs{ color: #009500; font-size: 24px; float: left; font-weight: bold; line-height: 31px;  }
+#prijzen .prijs.ab{ color: #dd4848; }
+#prijzen .overige .prijs{ font-size: 16px; white-space: nowrap; color: #dd4848; line-height: 31px; }
+#prijzen .aanbieding{ text-decoration: line-through; color: #777; font-weight: bold; font-size: 18px; }
+#prijzen .nu-boeken{ 
+	 
+	border: none; 
+	border-radius: 4px; 
+	background: #009500; 
+	border: 1px solid #009500;
+	color: white; 
+	font-weight: bold; 
+	font-size: 16px; 
+	float: right; 
+	display: block; 
+	text-decoration: none; 
+	padding: 5px 15px; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#63CD65), to(#009500)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #63CD65,  #009500); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #63CD65,  #009500); /* for ie 9+ */
+	box-shadow: inset 0 1px 2px rgba(255, 255, 255, .3);
+}
+#prijzen .nu-boeken:hover{ 
+	background: #005F00; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#009500), to(#005F00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #009500,  #005F00); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #009500,  #005F00); /* for ie 9+ */
+	border-color: #005F00;
+	cursor: pointer; 
+}
+#prijzen .nu-boeken.ab, #direct-boeken, .arrangementen .nu-boeken{ 
+	 
+	border: none; 
+	border-radius: 4px; 
+	background: #de4444; 
+	border: 1px solid #de3434;
+	color: white; 
+	font-weight: bold; 
+	font-size: 16px; 
+	float: right; 
+	display: block; 
+	text-decoration: none; 
+	padding: 5px 15px; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#dd5555), to(#de3434)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #dd5555,  #de3434); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #dd5555,  #de3434); /* for ie 9+ */
+	box-shadow: inset 0 1px 2px rgba(255, 255, 255, .3);
+}
+#prijzen .nu-boeken.ab:hover, #direct-boeken:hover, .arrangementen .nu-boeken:hover{ 
+	background: #bb2828; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#de3434), to(#bb2828)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #de3434,  #bb2828); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #de3434,  #bb2828); /* for ie 9+ */
+	border-color: #bb2828;
+	cursor: pointer; 
+}
+
+#prijzen .overige .nu-boeken, .arrangementen .nu-boeken{ font-size: 12px; }
+.arrangementen .aanbieding{ text-decoration: line-through; color: #777;  }
+#prijzen .overige{ border-spacing: 0; line-height: 16px; }
+#prijzen .overige .marginbottom td{ padding-bottom: 4px; }
+#prijzen .error{ background-color:#ffa; border:1px solid #cc9; padding:3px; color: #ed1c24; }
+
+.accommodatie #primary{ background: #e2eaf4; width: 300px; position: absolute; right: 0; top: 0; padding: 10px 0 30px 20px;  }
+#primary .info{ font-style: italic; color: #777; }
+#primary .block{ background: #e0f6ff; padding: 10px; clear: both; margin: 20px 0; width: 278px; }
+#primary .block h2{ color: #0073bc; font-size: 18px;  }
+.accommodatie .block{ margin-left: 0px; }
+
+#u-bent-klaar{ float: left; background: url('../images/valid.png') no-repeat; padding: 0px 0px 0px 30px; font-size: 14px; margin-top: 10px; color: #009500; font-weight: bold; display: none; }
+#primary .aanbiedingen ul{ margin: 10px 0 0 0; }
+#primary .aanbiedingen li, 
+#formBoeken input[type=submit], 
+#top-zoeken input[type=submit],
+.zoeken-result .nu-boeken,
+input.back { 
+	
+	font-weight: bold;
+	color: #fff; 
+	font-size: 16px;
+	list-style: none; 
+	display: block; 
+	border-radius: 4px; 
+	margin: 5px 0px 5px 0; 
+	float: left; 
+	padding: 5px 12px; 
+	border: 1px solid #1870c1;
+	background: #1870c1; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#438dd2), to(#1870c1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #438dd2,  #1870c1); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #438dd2,  #1870c1); /* for ie 9+ */
+	box-shadow: inset 0 1px 2px rgba(255, 255, 255, .3);
+	cursor: pointer; 
+}
+#primary .aanbiedingen li:hover, 
+#formBoeken input[type=submit]:hover, 
+#top-zoeken input[type=submit]:hover,
+.zoeken-result .nu-boeken:hover,
+input.back:hover{ 
+	border: 1px solid #09559b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1870c1), to(#09559b)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #1870c1,  #09559b); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #1870c1,  #09559b); /* for ie 9+ */
+	text-decoration: none; 
+}
+.zoeken-result .nu-boeken{ float: right; margin: 0px; }
+input.back{ 
+	float: left !important;
+	border: 1px solid #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#aaa)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #bbb,  #aaa); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #bbb,  #aaa); /* for ie 9+ */
+}
+input.back:hover{
+	border: 1px solid #888;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#888)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #aaa,  #888); /* for firefox 3.6+ */
+	background: -ms-linear-gradient(top,  #aaa,  #888); /* for ie 9+ */
+}
+#primary .aanbiedingen li{ margin-right: 5px; }
+
+
+.arrangementen .arrangement{ width: 275px; padding: 10px; border-radius: 4px; background: #e2eaf4; float: left; margin: 0 20px 20px 0; }
+.arrangementen .arrangement:nth-child(2n){ margin-right: 0; }
+.arrangementen  h3{ font-weight: bold; color: #333; font-size: 14px;  margin: 0 0 4px 0; }
+.arrangementen .txt{ height: 60px; overflow: hidden; }
+.arrangementen .naam{ font-weight: bold; color: #333; padding: 10px 1px 0px 1px; }
+.arrangementen .prijs-info{ padding-top: 10px; float: left; clear: both; }
+.arrangementen .prijs{ font-weight: bold; color: #dd4848; float: right;  font-size: 16px; margin: 8px 2px 4px 0; }
+.arrangementen input{ clear: both; }
+
+.fancybox-wrap{ top: 50px !important; }
+
+#top-zoeken{ display: none; position: fixed; top: 0; left: 0; width: 100%; background: #d2ecf9; border-bottom: 2px solid #339dcd; z-index: 5; box-shadow: 0px 4px 10px rgba(0, 0, 0, .7); font-size: 14px;}
+#top-zoeken input[type=submit]{ float: right; margin-top: 2px; }
+#top-zoeken .inner{ width: 700px; padding: 10px 10px 10px 210px; margin: 0px auto; background: url('../images/meren.png') no-repeat left bottom; }
+#top-zoeken h2{ margin: 0 0 10px; color: #2C5061;}
+#top-zoeken table{ border-spacing: 0; border-collapse: collapse; }
+#top-zoeken table td{ padding: 0 5px; vertical-align: middle; }
+#top-zoeken input[type=text]{ width: 130px; padding: 3px; background: url('../images/cal.png') no-repeat 110px 4px #fff; border: 1px solid #ddd; border-radius: 3px; font-size: 14px; }
+#top-zoeken select{ padding: 3px; border: 1px solid #ddd; border-radius: 3px; font-size: 14px; }
+
+.ui-tooltip {
+	font-size: 12px; 
+	line-height: 18px; 
+	font-family: Arial;
+	font-weight: normal;
+}
+
+#formBoeken input.check{ margin: 3px 10px 0 0; }
+#formBoeken p{ padding: 0px; margin: 0px; }
+#formBoeken input[type=submit]{ float: right; }
+#formBoeken #ajax-message{ font-weight: bold; font-size: 14px; }
+
+#stappen .stap{ width: 27.9%; float: left; background: #cbe4f5; padding: 8px 14px 8px 24px; margin-right: 4px; border-radius: 4px; color: #999; line-height: 1em; font-size: 16px; }
+#stappen .stap:first-child{ padding-left: 14px; }
+#stappen .stap.current{ font-weight: bold; background: #007CC3; color: white; }
+#stappen .stap.done{ color: #fff; background-color: #5FB7E9; }
+#stappen .stap.done a{ color: #fff; }
+#stappen .omschrijving{ font-size: 12px; margin-top: 2px; opacity: .8; }
+
+#stappen .next{ float: left; width: 46px; height: 46px; position: relative; z-index: 2; margin: 0px -16px 0 -20px; background: url('../images/next.png') no-repeat 0px -200px; }
+#stappen .next.done{ background-position: 0px -100px; }
+#stappen .next.current{ background-position: 0px 0px; }
+
+#hookError{ clear: left; width: 467px; margin-top: 4px; }
+/* De volgende regels zijn voor de form validator */
+
+.formular h1{ font-size: 22px;  }
+.formular h2{ margin: 20px 0 10px; }
+.formular.stap-3 h2{ font-size: 22px; background: url('../images/sprite.png') no-repeat 0px -400px; padding-left: 50px; line-height: 40px;  }
+.formular table{ border-spacing: 0; border-collapse: collapse; }
+.formular table td{ padding: 1px 15px 1px 0px; vertical-align: top; }
+.formular table th{ text-align: left; }
+.formular .acconame{ font-size: 14px; font-weight: bold; }
+.formular table tr.bigpadding td{ padding: 5px 5px 5px 0; }
+
+.formular label { float: left; width: 220px; padding-right: 10px; text-align: right; padding-top: 6px; clear: both; }
+.formular table label{ float: none; width: auto; padding: 0px; }
+.formular.stap-2 table label{ font-weight: bold; }
+
+.formular .text-input {
+	color: #333;
+	padding: 3px;
+	border-radius: 3px; 
+	border: 1px solid #ccc;
+	font-size: 14px;
+	margin: 0px;
+	background: #FFF repeat-x;
+	float: left; 
+	width: auto;
+}
+
+.formular div.check{ padding: 0 0 0 6px; float: left; }
+
+.formular input[type=checkbox]
+{
+	float: left;	
+	margin-top: 4px; 
+}
+
+.formular select{ float: left; padding: 3px; border-radius: 3px; border: 1px solid #ccc; }
+.formular.stap-2 select{  }
+
+.formular .text-input.error{
+	border-color: #DE3434;
+	background: url('../images/invalid.png') no-repeat right center #fff;
+}
+.formular .text-input.valid{
+	border-color: #5c841e;
+	background: url('../images/valid.png') no-repeat right center #fff;
+}
+.formular label.error{
+	font-weight: bold; 
+	color: #DE3434;
+}
+
+.formular textarea {
+	width: 550px;
+	height: 70px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+	font-family: Arial;
+}
+
+.formular .infos {
+	background: #FFF;
+	color: #333; 
+	font-size: 12px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.formular span.checkbox,.formular .checkbox {
+	display: inline;
+}
+
+.formular .submit {
+	border: 1px solid #AAA;
+	float: right;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.formular hr {
+	clear: both;
+	visibility: hidden;
+}
+
+.formular .fc-error {
+	width: 350px;
+	color: 555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	margin-bottom: 15px;
+	background: #FFEAEA;
+}
+
+.inputContainer {
+	position: relative;
+	float: left;
+}
+
+.formError {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	display: none;
+	z-index: 5000;
+	cursor: pointer;
+}
+
+.ajaxSubmit {
+	padding: 20px;
+	background: #55ea55;
+	border: 1px solid #999;
+	display: none
+}
+
+.formError .formErrorContent {
+	width: 100%;
+	background: #ee0101;
+	position:relative;
+	z-index:5001;
+	color: #fff;
+	width: 150px;
+	
+	font-size: 11px;
+	border: 2px solid #ddd;
+	box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	padding: 4px 10px 4px 10px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.greenPopup .formErrorContent {
+	background: #33be40;
+}
+
+.blackPopup .formErrorContent {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow {
+	width: 15px;
+	margin: -2px 0 0 13px;
+  position:relative;
+  z-index: 5006;
+}
+
+.formError .formErrorArrowBottom {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+	margin: 0px 0 0 12px;
+  top:2px;
+}
+
+.formError .formErrorArrow div {
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	box-shadow: 0 2px 3px #444;
+	-moz-box-shadow: 0 2px 3px #444;
+	-webkit-box-shadow: 0 2px 3px #444;
+	font-size: 0px;
+	height: 1px;
+	background: #ee0101;
+	margin: 0 auto;
+	line-height: 0;
+	font-size: 0;
+	display: block;
+}
+
+.formError .formErrorArrowBottom div {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.greenPopup .formErrorArrow div {
+	background: #33be40;
+}
+
+.blackPopup .formErrorArrow div {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow .line10 {
+	width: 15px;
+	border: none;
+}
+
+.formError .formErrorArrow .line9 {
+	width: 13px;
+	border: none;
+}
+
+.formError .formErrorArrow .line8 {
+	width: 11px;
+}
+
+.formError .formErrorArrow .line7 {
+	width: 9px;
+}
+
+.formError .formErrorArrow .line6 {
+	width: 7px;
+}
+
+.formError .formErrorArrow .line5 {
+	width: 5px;
+}
+
+.formError .formErrorArrow .line4 {
+	width: 3px;
+}
+
+.formError .formErrorArrow .line3 {
+	width: 1px;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-bottom: 0 solid #ddd;
+}
+
+.formError .formErrorArrow .line2 {
+	width: 3px;
+	border: none;
+	background: #ddd;
+}
+
+.formError .formErrorArrow .line1 {
+	width: 1px;
+	border: none;
+	background: #ddd;
+}
+.simpel-melding{ padding: 10px 10px 10px 50px; font-weight: bold; font-size: 14px; color: #545454; background: url('../images/meldingen.png') no-repeat; border: 1px solid #fff; margin-bottom: 10px; }
+.simpel-melding.rood{ background-color: #ffa0a0; background-position: 8px -95px; border-color: #e31a1a;}
+.simpel-melding.geel{ background-color: #fff9a0; background-position: 8px 5px; border-color: #ecdf17;}
+.simpel-melding.blauw{ background-color: #a6d4ff; background-position: 8px -195px; border-color: #2a7cc8;}
+#facebook-share{ display: block; width: 102px; height: 28px; background: url('../images/sprite.png') no-repeat 0 -450px; text-indent: -9999px; cursor: pointer; }
+
+.campings{ position: relative; font-size: 14px; line-height: 150%; }
+.campings .camping{ width: 45%; margin: 0 10% 10px 0; padding: 5px 0 15px; float: left; position: relative; cursor: pointer; transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -o-transition: all .3s; }
+.campings .camping:nth-child(2n){ margin-right: 0; }
+.campings .camping:hover{ background: #d2ecf9;}
+.campings .camping .title a{ color: #1695ca; font-size: 14px; font-weight: 700; }
+.campings .camping .logo{ width: 30%; margin: 0 8px 8px 0; float: left; }
+.campings .camping .logo img{ max-width: 100%; }
+.campings .camping a{ color: #1695ca; }
+
+.home .last-minutes{ background: #fff; margin-top: 40px;}
+.home .last-minutes-inner h2,
+.home .arrangementen-inner h2{ 
+	margin: 40px 0 20px; font-size: 28px; font-weight: 800; text-shadow: 0 1px 2px rgba(0, 0, 0, .2); }
+.home .last-minutes-inner{ width: 50%; float: left;  }
+.home .last-minutes .lm-item{ width: 32%; margin: -40px 2% 10px 0; float: left; font-size: 14px; line-height: 150%; cursor: pointer; transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -o-transition: all .3s; }
+.home .last-minutes .lm-item:last-child{ margin-right: 0; }
+.home .last-minutes .lm-item:hover{ background: #d2ecf9; }
+.home .last-minutes .lm-item .afbeelding{ height: 100px; background-repeat: no-repeat; background-size: cover; background-position: center center; border-radius: 3px; margin-bottom: 5px;}
+.home .last-minutes .lm-item .sterren{ width: 85px; height: 16px; margin: 3px 0 5px 5px; float: right; background: url('../images/sterren.png') no-repeat top; }
+.home .last-minutes .lm-item .sterren.ster4{ background-position: 0 -16px; }
+.home .last-minutes .lm-item .sterren.ster3{ background-position: 0 -32px; }
+.home .last-minutes .lm-item .sterren.ster2{ background-position: 0 -48px; }
+.home .last-minutes .lm-item .sterren.ster1{ background-position: 0 -64px; }
+.home .last-minutes .lm-item .name{ height: 42px; overflow: hidden;}
+.home .last-minutes .lm-item .name a{ font-weight: 700; color: #339dce; text-decoration: none; }
+.home .last-minutes .lm-item .camping{ color: #444; clear: both; height: 21px; overflow: hidden; }
+.home .last-minutes .lm-item .personen{ background: url('../images/bed.png') no-repeat center left; padding-left: 40px; color: #444; }
+.home .last-minutes .lm-item .prijs{ margin-top: 8px; }
+.home .last-minutes .lm-item .prijs .melding{ font-size: 11px; color: #777; line-height: 130%; margin-bottom: 4px; font-style: italic; }
+.home .last-minutes .lm-item .prijs .origineel{ font-size: 18px; color: #777; text-decoration: line-through; font-weight: 700; float: left; }
+.home .last-minutes .lm-item .prijs .origineel.no-strike{ text-decoration: none; }
+.home .last-minutes .lm-item .prijs .huidig{ font-size: 24px; color: #de4343; font-weight: 800; float: right; }
+.home .last-minutes .lm-item .more-info{ 
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px; 
+	font-weight: 700;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	padding: 4px 16px;
+	text-align: center;
+	margin: 10px 0 0;
+	display: block;
+	border: 1px solid #339dcd; /* stroke */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #339dcd; /* layer fill content */
+	-moz-box-shadow: inset 0 1px 2px rgba(255,255,255,.3); /* inner shadow */
+	-webkit-box-shadow: inset 0 1px 2px rgba(255,255,255,.3); /* inner shadow */
+	box-shadow: inset 0 1px 2px rgba(255,255,255,.3); /* inner shadow */
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDc2IDI0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzMzlkY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NGI3ZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijc2IiBoZWlnaHQ9IjI0IiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=); /* gradient overlay */
+	background-image: -moz-linear-gradient(bottom, #339dcd 0%, #64b7de 100%); /* gradient overlay */
+	background-image: -o-linear-gradient(bottom, #339dcd 0%, #64b7de 100%); /* gradient overlay */
+	background-image: -webkit-linear-gradient(bottom, #339dcd 0%, #64b7de 100%); /* gradient overlay */
+	background-image: linear-gradient(bottom, #339dcd 0%, #64b7de 100%); /* gradient overlay */
+
+ }
+
+
+
+.home .arrangementen-inner{ width: 47%; float: right; position: relative; }
+.home .arrangementen-inner .lm-item{ width: 49%; position: relative; }
+.home .arrangementen-inner .lm-item .afbeelding .img-accommodatie{ width: 170px; height: 100px; position: absolute; right: 0; background-size: cover; background-position: 50% 50%; border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.home .arrangementen-inner .lm-item .afbeelding .img-arrangement{ position: relative; z-index: 2; width: 176px; height: 100px; background-size: cover; -webkit-mask-image: url('../images/mask.png'); background-position: 50% 50%; border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.home .arrangementen-inner .lm-item .afbeelding .img-divider{ position: absolute; z-index: 3; width: 180px; height: 100px; background: url('../images/arrangement-divider.png'); }
