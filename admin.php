@@ -416,26 +416,25 @@ class Simpel_Reserveren_Admin {
 			$accommodaties = $this->wpdb->get_results( 'select * from ' . SIMPEL_DB_PREFIX . 'accommodatie' );
 			foreach ( $accommodaties as $acco ) {
 				if ( $data[ 'prijs_acco_' . $acco->id ] ) {
-					$fields = [
+					$fields = array(
 						'arrangement_id'  => $id,
 						'accommodatie_id' => $acco->id,
 						'prijs'           => $data[ 'prijs_acco_' . $acco->id ],
 						'meerprijs_volw'  => $data[ 'meerprijs_volw_' . $acco->id ],
 						'meerprijs_kind'  => $data[ 'meerprijs_kind_' . $acco->id ],
-					];
+					);
 
 					$row = $this->wpdb->get_row( $this->wpdb->prepare(
 						'select * from ' . SIMPEL_DB_PREFIX . 'arrangementen_prijzen where accommodatie_id = "%d" and arrangement_id = "%d"',
 						$acco->id, $id ) );
 
 					if ( $row ) {
-						$this->wpdb->update( SIMPEL_DB_PREFIX . 'arrangementen_prijzen', $fields, [ 'id' => $row->id ] );
+						$this->wpdb->update( SIMPEL_DB_PREFIX . 'arrangementen_prijzen', $fields, array( 'id' => $row->id ) );
 					} else {
-						$this->wpdb->show_errors();
 						$this->wpdb->insert( SIMPEL_DB_PREFIX . 'arrangementen_prijzen', $fields );
 					}
 				} else {
-					$this->wpdb->delete( SIMPEL_DB_PREFIX . 'arrangementen_prijzen', [ 'arrangement_id' => $id, 'accommodatie_id' => $acco->id ] );
+					$this->wpdb->delete( SIMPEL_DB_PREFIX . 'arrangementen_prijzen', array( 'arrangement_id' => $id, 'accommodatie_id' => $acco->id ) );
 				}
 			}
 
