@@ -1,0 +1,752 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simpel reserveren\n"
+"POT-Creation-Date: 2015-04-13 15:48+0100\n"
+"PO-Revision-Date: 2015-04-13 15:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: classes\n"
+
+#: acf-fields/sr_object.php:16
+msgid "Simpel Reserveren Object"
+msgstr "Simpel Reserveren Object"
+
+#: acf-fields/sr_object.php:17
+msgid "Relational"
+msgstr "Relatie"
+
+#: acf-fields/sr_object.php:112 acf-fields/sr_object.php:135
+msgid "All"
+msgstr "Alle"
+
+#: acf-fields/sr_object.php:162 acf-fields/sr_object.php:181
+#: templates/boeken.php:77
+msgid "Yes"
+msgstr "Ja"
+
+#: acf-fields/sr_object.php:163 acf-fields/sr_object.php:182
+#: templates/boeken.php:81
+msgid "No"
+msgstr "Nee"
+
+#: classes/Accommodatie_Class.php:43
+msgid "pets ok"
+msgstr "huisdieren ok"
+
+#: classes/Accommodatie_Class.php:43
+msgid "no pets allowed"
+msgstr "geen huisdieren toegestaan"
+
+#: classes/Accommodatie_Class.php:371
+msgid "weekend"
+msgstr "weekend"
+
+#: classes/Accommodatie_Class.php:391
+msgid "midweek"
+msgstr "midweek"
+
+#: classes/Accommodatie_Class.php:411
+msgid "week"
+msgstr "week"
+
+#: classes/Landingpage_Class.php:237 simpel-reserveren.php:762
+#: simpel-reserveren.php:763 simpel-reserveren.php:771
+msgid "till"
+msgstr "tot"
+
+#: classes/Landingpage_Class.php:242
+msgid "Choose your accommodation"
+msgstr "Kies uw accommodatie"
+
+#: classes/Landingpage_Class.php:282 simpel-reserveren.php:563
+#: templates/accommodatie_arrangementen.php:10 templates/boeken.php:26
+msgid "Book"
+msgstr "Boek"
+
+#: classes/Widgets_Class.php:68 classes/Widgets_Class.php:151
+msgid "From "
+msgstr "Vanaf"
+
+#: classes/Widgets_Class.php:68 classes/Widgets_Class.php:151
+msgid "per week"
+msgstr "per week"
+
+#: classes/Widgets_Class.php:78 classes/Widgets_Class.php:118
+#: classes/Widgets_Class.php:198 templates/arrangementen.php:16
+#: templates/arrangementen.php:22 templates/boeken.php:453
+#: templates/last-minutes.php:12 templates/last-minutes.php:18
+msgid "persons"
+msgstr "personen"
+
+#: classes/Widgets_Class.php:110
+msgid "Last-minute"
+msgstr "Last-minute"
+
+#: classes/Widgets_Class.php:120 classes/Widgets_Class.php:200
+msgid "Minimum weekprice"
+msgstr "Weekprijs vanaf"
+
+#: classes/Widgets_Class.php:121 classes/Widgets_Class.php:201
+msgid "Book accommodation right now!"
+msgstr "Boek deze accommodatie direct!"
+
+#: classes/Widgets_Class.php:149
+msgid "Last booking"
+msgstr "Laatste boeking"
+
+#: classes/Widgets_Class.php:190
+msgid "Holidays we have to offer"
+msgstr "Een greep uit ons aanbod"
+
+#: classes/Zoek_Class.php:42
+msgid "Number of people changed to 2 adults and 0 children"
+msgstr "Aantal personen veranderd in 2 volwassenen en 0 kinderen"
+
+#: classes/Zoek_Class.php:58
+msgid "Filter on facilities disabled"
+msgstr "De filters op faciliteiten zijn uitgezet"
+
+#: classes/Zoek_Class.php:65
+msgid "All accommodation types shown"
+msgstr "Alle accommodatietypes weergegeven"
+
+#: classes/Zoek_Class.php:77 classes/Zoek_Class.php:93
+msgid "Period changed into"
+msgstr "Periode veranderd naar"
+
+#: classes/Zoek_Class.php:77 classes/Zoek_Class.php:93
+#: templates/accommodatie_alternatieve_prijzen.php:21
+#: templates/accommodatie_arrangementen.php:23
+msgid "until"
+msgstr "tot"
+
+#: functions.php:61
+msgid "Holiday park"
+msgstr "Vakantiepark"
+
+#: functions.php:62
+msgid "Holiday parks"
+msgstr "Vakantieparken"
+
+#: functions.php:63 functions.php:89 templates/accommodatie.php:10
+#: templates/accommodatie.php:105 templates/arrangement.php:10
+#: templates/camping.php:7 templates/kalender.php:9
+#: templates/zoek-arrangementen.php:54 templates/zoeken.php:54
+msgid "Accommodation"
+msgstr "Verblijf"
+
+#: functions.php:64 templates/camping.php:55 templates/camping.php:65
+#: templates/camping.php:111
+msgid "Accommodations"
+msgstr "Accommodaties"
+
+#: functions.php:70
+msgid "Hotel"
+msgstr "Hotel"
+
+#: functions.php:71
+msgid "Hotels"
+msgstr "Hotels"
+
+#: functions.php:72
+msgid "Room"
+msgstr "Kamer"
+
+#: functions.php:73
+msgid "Rooms"
+msgstr "Kamers"
+
+#: functions.php:79
+msgid "Marina"
+msgstr "Jachthaven"
+
+#: functions.php:80
+msgid "Marinas"
+msgstr "Jachthavens"
+
+#: functions.php:81
+msgid "Boat"
+msgstr "Boot"
+
+#: functions.php:82
+msgid "Boats"
+msgstr "Boten"
+
+#: functions.php:83
+msgid "Type"
+msgstr "Type"
+
+#: simpel-reserveren.php:246
+msgid "Please wait a moment while your booking is being processed"
+msgstr "Wacht aub een moment totdat uw boeking is gemaakt"
+
+#: simpel-reserveren.php:247
+msgid "Please wait while your data is being saved"
+msgstr "Een moment aub, uw data wordt opgeslagen"
+
+#: simpel-reserveren.php:248
+msgid "You have to agree to the terms and conditions"
+msgstr "U moet akkoord gaan met de algemene voorwaarden"
+
+#: simpel-reserveren.php:252
+msgid "loading..."
+msgstr "laden..."
+
+#: simpel-reserveren.php:284
+msgid "Search"
+msgstr "Zoeken"
+
+#: simpel-reserveren.php:290
+msgid "Packages"
+msgstr "Arrangementen"
+
+#: simpel-reserveren.php:762
+msgid "No price for"
+msgstr "Geen prijs voor"
+
+#: simpel-reserveren.php:774
+msgid "No price found."
+msgstr "Geen prijs gevonden."
+
+#: simpel-reserveren.php:783
+#: templates/accommodatie_alternatieve_prijzen.php:25
+#: templates/zoek-blok.php:2
+msgid "Book now"
+msgstr "boek nu"
+
+#: simpel-reserveren.php:788 simpel-reserveren.php:885
+#: templates/zoeken.php:176
+msgid "Included"
+msgstr "Inclusief"
+
+#: simpel-reserveren.php:902
+msgid "adults"
+msgstr "volwassenen"
+
+#: simpel-reserveren.php:903
+msgid "youth"
+msgstr "jeugd"
+
+#: simpel-reserveren.php:903 simpel-reserveren.php:904
+#: simpel-reserveren.php:905 templates/boeken.php:89 templates/boeken.php:95
+#: templates/boeken.php:101
+msgid "year"
+msgstr "jaar"
+
+#: simpel-reserveren.php:904
+msgid "children"
+msgstr "kinderen"
+
+#: simpel-reserveren.php:905
+msgid "babies"
+msgstr "baby's"
+
+#: simpel-reserveren.php:955
+msgid "Best price guarantee"
+msgstr "Beste prijs garantie"
+
+#: simpel-reserveren.php:957
+msgid "We work together with"
+msgstr "Wij werken samen met"
+
+#: simpel-reserveren.php:1375
+msgid "Campings"
+msgstr "Campings"
+
+#: simpel-reserveren.php:1424
+msgid "Book now for"
+msgstr "Nu boeken voor"
+
+#: templates/accommodatie.php:13 templates/accommodatie.php:159
+#: templates/arrangement.php:13 templates/camping.php:10
+#: templates/camping.php:163
+msgid "Availability"
+msgstr "Beschikbaarheid"
+
+#: templates/accommodatie.php:60 templates/accommodatie.php:79
+#: templates/arrangement.php:48 templates/arrangement.php:57
+#: templates/camping.php:54
+msgid "Overview"
+msgstr "Overzicht"
+
+#: templates/accommodatie.php:61 templates/accommodatie.php:66
+#: templates/camping.php:58 templates/camping.php:74 templates/camping.php:147
+msgid "Facilities"
+msgstr "Faciliteiten"
+
+#: templates/accommodatie.php:62 templates/accommodatie.php:67
+#: templates/accommodatie.php:83 templates/accommodatie.php:127
+#: templates/arrangement.php:49 templates/arrangement.php:61
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: templates/accommodatie.php:63 templates/accommodatie.php:97
+#: templates/arrangement.php:50 templates/arrangement.php:75
+msgid "Terms & conditions"
+msgstr "Voorwaarden"
+
+#: templates/accommodatie.php:69 templates/accommodatie.php:142
+msgid "Plan"
+msgstr "Plattegrond"
+
+#: templates/accommodatie.php:186 templates/camping.php:176
+msgid "Discounts"
+msgstr "Kortingen"
+
+#: templates/accommodatie_alternatieve_prijzen.php:4
+msgid "Alternative prices"
+msgstr "Alternatieve prijzen"
+
+#: templates/accommodatie_alternatieve_prijzen.php:15
+msgid "discount"
+msgstr "korting"
+
+#: templates/accommodatie_arrangementen.php:4
+msgid "Arrangements"
+msgstr "Arrangementen"
+
+#: templates/arrangement.php:98 templates/boeken.php:58
+#: templates/kalender.php:21 templates/zoek-arrangementen.php:31
+#: templates/zoek-blok.php:14 templates/zoeken.php:31
+msgid "Arrival"
+msgstr "Aankomst"
+
+#: templates/arrangement.php:102 templates/boeken.php:62
+#: templates/kalender.php:25 templates/zoek-arrangementen.php:35
+#: templates/zoek-blok.php:18 templates/zoeken.php:35
+msgid "Departure"
+msgstr "Vertrek"
+
+#: templates/arrangement.php:106
+msgid "loading"
+msgstr "laden"
+
+#: templates/arrangementen.php:22 templates/last-minutes.php:18
+msgid "Price is including"
+msgstr "Prijs is inclusief"
+
+#: templates/arrangementen.php:27 templates/last-minutes.php:23
+msgid "Book Now"
+msgstr "Boek Nu"
+
+#: templates/boeken.php:8 templates/boeken.php:462
+msgid "Price calculation"
+msgstr "Prijsberekening"
+
+#: templates/boeken.php:8
+msgid "Your information"
+msgstr "Uw gegevens"
+
+#: templates/boeken.php:8
+msgid "Confirmation"
+msgstr "Bevestiging"
+
+#: templates/boeken.php:12
+msgid "Total"
+msgstr "Totaal"
+
+#: templates/boeken.php:15 templates/boeken.php:17 templates/boeken.php:19
+msgid "Step"
+msgstr "Stap"
+
+#: templates/boeken.php:29
+msgid "Receipt"
+msgstr "Kassabon"
+
+#: templates/boeken.php:69 templates/zoek-arrangementen.php:42
+#: templates/zoek-blok.php:23 templates/zoeken.php:42
+msgid "Adults"
+msgstr "Volwassenen"
+
+#: templates/boeken.php:74
+msgid "Do you bring children?"
+msgstr "Neemt u kinderen mee?"
+
+#: templates/boeken.php:89
+msgid "Youth"
+msgstr "Jeugd"
+
+#: templates/boeken.php:95 templates/zoek-arrangementen.php:46
+#: templates/zoek-blok.php:27 templates/zoeken.php:46
+msgid "Children"
+msgstr "Kinderen"
+
+#: templates/boeken.php:101
+msgid "Babies"
+msgstr "baby's"
+
+#: templates/boeken.php:111
+msgid "Extra's"
+msgstr "Extra's"
+
+#: templates/boeken.php:140
+msgid "Book on map"
+msgstr "Boek op plattegrond"
+
+#: templates/boeken.php:143
+msgid "Click here to view the map and pick your preferred position"
+msgstr "Klik hier om de plattegrond te bekijken en uw voorkeur aan te geven"
+
+#: templates/boeken.php:155 templates/boeken.php:158
+msgid "Describe your preference over here"
+msgstr "Geef uw voorkeur hier aan"
+
+#: templates/boeken.php:159
+msgid ""
+"Please pick your spot on the map on the left. After your booking is made we "
+"will try to make a reservation on that spot. If that spot isn't available, "
+"we will contact you for an alternative"
+msgstr ""
+"Kies een plek op de plattegrond. Na de boeking zal er geprobeerd worden om "
+"deze plaats te reserveren. Mocht dit niet mogelijk zijn, dan zullen wij "
+"contact met u opnemen voor een alternatief."
+
+#: templates/boeken.php:160
+msgid "We would like to stay on place number 1 or 2"
+msgstr "We zouden graag willen verblijven op plek 1 of 2"
+
+#: templates/boeken.php:164
+msgid "Ga verder met uw reservering"
+msgstr "Ga verder met uw reservering"
+
+#: templates/boeken.php:165
+msgid "Go back"
+msgstr "Ga terug"
+
+#: templates/boeken.php:176
+msgid "Continue to address details"
+msgstr "Ga verder naar de adresgegevens"
+
+#: templates/boeken.php:187
+msgid "First name"
+msgstr "Voornaam"
+
+#: templates/boeken.php:191
+msgid "Family name"
+msgstr "Achternaam"
+
+#: templates/boeken.php:198
+msgid "E-mail address"
+msgstr "E-mailadres"
+
+#: templates/boeken.php:202
+msgid "Confirm e-mail address"
+msgstr "Bevestig e-mailadres"
+
+#: templates/boeken.php:209
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: templates/boeken.php:216
+msgid "Do you have any special requests? Please fill them in here."
+msgstr "Heeft u speciale verzoeken? Dan kunt u deze hier invullen."
+
+#: templates/boeken.php:223
+msgid "Credit card number"
+msgstr "Creditcard nummer"
+
+#: templates/boeken.php:227
+msgid "Valid until m/y"
+msgstr "Geldig tot m/j"
+
+#: templates/boeken.php:240
+msgid "By booking this accommodation you agree with our"
+msgstr "Door het boeken van deze accommodatie gaat u akkoord met onze"
+
+#: templates/boeken.php:240
+msgid "terms and conditions"
+msgstr "algemene voorwaarden"
+
+#: templates/boeken.php:242
+msgid "You are ready too book"
+msgstr "U bent klaar om te boeken"
+
+#: templates/boeken.php:250
+msgid "Book for"
+msgstr "Boek voor"
+
+#: templates/boeken.php:261
+msgid "Error, something went wrong. Please try again."
+msgstr "Error, er is iets mis gegaan. Probeer het alstublieft opnieuw."
+
+#: templates/boeken.php:262
+msgid "Or contact us by phone to make your reservation."
+msgstr "Of bel ons om een reservering te maken."
+
+#: templates/boeken.php:274
+msgid "Congratulations, your booking is complete!"
+msgstr "Gefeliciteerd, uw boeking is gedaan!"
+
+#: templates/boeken.php:278
+msgid "Additional data"
+msgstr "Overige gegevens"
+
+#: templates/boeken.php:279
+msgid "To complete your booking, we would like the following data"
+msgstr ""
+"Om uw boeking compleet te maken zouden we graag de volgende informatie willen"
+
+#: templates/boeken.php:282
+msgid "Name"
+msgstr "Naam"
+
+#: templates/boeken.php:286
+msgid "Address + house number"
+msgstr "Adres + huisnummer"
+
+#: templates/boeken.php:293
+msgid "Postal code"
+msgstr "Postcode"
+
+#: templates/boeken.php:297
+msgid "City"
+msgstr "Plaats"
+
+#: templates/boeken.php:306
+msgid "I would like to receive an invoice by regular mail"
+msgstr "Ik wil graag een rekening per post"
+
+#: templates/boeken.php:315
+msgid "Save data"
+msgstr "Opslaan gegevens"
+
+#: templates/boeken.php:329
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/boeken.php:450
+msgid "bedrooms"
+msgstr "slaapkamers"
+
+#: templates/camping-blok.php:13 templates/camping.php:105
+msgid "Read more"
+msgstr "Lees meer"
+
+#: templates/camping.php:45
+msgid "click here for the plan"
+msgstr "klik hier voor de plattegrond"
+
+#: templates/camping.php:56 templates/camping.php:88 templates/camping.php:127
+msgid "Pictures"
+msgstr "Afbeeldingen"
+
+#: templates/camping.php:57 templates/camping.php:102
+#: templates/camping.php:138
+msgid "Surrounding"
+msgstr "Omgeving"
+
+#: templates/camping.php:83
+msgid "Click here to see all facilities"
+msgstr "Klik hier voor alle faciliteiten"
+
+#: templates/camping.php:99
+msgid "Click here to see all images"
+msgstr "Klik hier voor alle afbeeldingen"
+
+#: templates/camping.php:120
+msgid "Click here for more information about this accommodation"
+msgstr "Klik hier voor meer informatie over deze accommodatie"
+
+#: templates/camping.php:180
+msgid "Move the mouse over to see the terms"
+msgstr "Beweeg de muis over de aanbiedingen voor de voorwaarden"
+
+#: templates/kalender.php:33
+msgid "Legenda"
+msgstr "Legenda"
+
+#: templates/kalender.php:34
+msgid "Click to select arrival and departure date"
+msgstr "Klk om de aankomst- en vertrekdatum te selecteren"
+
+#: templates/kalender.php:35
+msgid "Arrival or departure possible"
+msgstr "Aankomst en vertrek mogelijk"
+
+#: templates/kalender.php:36
+msgid "Available"
+msgstr "Beschikbaar"
+
+#: templates/kalender.php:37
+msgid "Taken"
+msgstr "Bezet"
+
+#: templates/kalender.php:38
+msgid "Selected"
+msgstr "Geselecteerd"
+
+#: templates/kalender.php:40
+msgid "Loading prices"
+msgstr "Prijzen laden"
+
+#: templates/zoek-arrangementen.php:10 templates/zoek-arrangementen.php:94
+#: templates/zoeken.php:10 templates/zoeken.php:116
+msgid "found"
+msgstr "gevonden"
+
+#: templates/zoek-arrangementen.php:13 templates/zoeken.php:13
+#: templates/zoeken.php:81
+msgid "Filter facilities"
+msgstr "Filter faciliteiten"
+
+#: templates/zoek-arrangementen.php:26 templates/zoek-blok.php:7
+#: templates/zoeken.php:26
+msgid "Make reservation"
+msgstr "Direct reserveren"
+
+#: templates/zoek-arrangementen.php:56 templates/zoek-blok.php:34
+#: templates/zoeken.php:56
+msgid "No preference"
+msgstr "Geen voorkeur"
+
+#: templates/zoek-arrangementen.php:88 templates/zoeken.php:106
+msgid ""
+"0 Accommodations found with current search request, changed the following:"
+msgstr ""
+"0 Accommodaties gevonden met de huidige zoekcriteria, de volgende criteria "
+"zijn veranderd:"
+
+#: templates/zoek-arrangementen.php:94
+msgid "packages"
+msgstr "arrangementen"
+
+#: templates/zoek-arrangementen.php:135 templates/zoeken.php:172
+#: templates/zoeken.php:199
+msgid "book now"
+msgstr "boek nu"
+
+#: templates/zoek-arrangementen.php:148 templates/zoeken.php:213
+msgid ""
+"There are no accomodations found with the current search criterea, please "
+"adjust and try again."
+msgstr ""
+"Er zijn geen accommodaties gevonden met de huidige zoekcriteria, pas deze "
+"aan probeer het opnieuw."
+
+#: templates/zoeken.php:87
+msgid "active"
+msgstr "actief"
+
+#: templates/zoeken.php:94
+msgid "Click on the faclity to switch on or off"
+msgstr "Klik op een faciliteit om hier op te filteren"
+
+#: templates/zoeken.php:147
+msgid "No price found for the selected period"
+msgstr "Geen prijs gevonden voor de geselecteerde periode"
+
+#: templates/zoeken.php:148
+msgid "Price for"
+msgstr "Prijs voor"
+
+#: templates/zoeken.php:159
+msgid "From"
+msgstr "Van"
+
+#: templates/zoeken.php:160
+msgid "for"
+msgstr "voor"
+
+#: js/jquery-ui.min.js:6
+msgid "'"
+msgstr "'"
+
+#~ msgid "Back to accommodation"
+#~ msgstr "Terug naar accommodatie"
+
+#~ msgid "Book direct!"
+#~ msgstr "Boek direct!"
+
+#~ msgid "Read less"
+#~ msgstr "Lees minder"
+
+#~ msgid "Click here to see all accommodations"
+#~ msgstr "Klik hier voor alle accommodaties"
+
+#~ msgid "Camping"
+#~ msgstr "Camping"
+
+#~ msgid "accommodations found"
+#~ msgstr "accommodaties gevonden"
+
+#~ msgid "Number of people"
+#~ msgstr "Aantal personen"
+
+#~ msgid "Number of adults"
+#~ msgstr "Aantal volwassenen"
+
+#~ msgid "Number of kids"
+#~ msgstr "Aantal kinderen"
+
+#~ msgid "years and older"
+#~ msgstr "jaar en ouder"
+
+#~ msgid "kids"
+#~ msgstr "kinderen"
+
+#~ msgid "Number of babies"
+#~ msgstr "Aantal baby's"
+
+#~ msgid "Extras"
+#~ msgstr "Extra's"
+
+#~ msgid "Continue"
+#~ msgstr "Ga verder"
+
+#~ msgid "You will receive a confirmation on this address"
+#~ msgstr "U ontvangt een bevestiging op dit adres"
+
+#~ msgid "So we can reach you"
+#~ msgstr "Zodat we u kunnen bereiken"
+
+#~ msgid "Guest name"
+#~ msgstr "Gastnaam"
+
+#~ msgid "Max. number of persons"
+#~ msgstr "Max. aantal personen"
+
+#~ msgid "Pets"
+#~ msgstr "Huisdieren"
+
+#~ msgid "welcome"
+#~ msgstr "toegestaan"
+
+#~ msgid "prohibited"
+#~ msgstr "niet toegestaan"
+
+#~ msgid "Phone"
+#~ msgstr "Telefoon"
+
+#~ msgid "Normally we send our invoices through e-mail"
+#~ msgstr "Normaal gesproken sturen we de rekening via e-mail"
+
+#~ msgid "Share your holiday with your friends"
+#~ msgstr "Deel uw vakantie met uw vrienden"
+
+#~ msgid "Post to feed"
+#~ msgstr "Post naar feed"
+
+#~ msgid "Period"
+#~ msgstr "Periode"
+
+#~ msgid "Price is included"
+#~ msgstr "Prijs is inclusief"
+
+#~ msgid "Describe your preference over here."
+#~ msgstr "Omschrijf uw voorkeur"
+
+#~ msgid "Back to step 1"
+#~ msgstr "Terug naar stap 1"
+
+#~ msgid "Most viewed accommodation"
+#~ msgstr "Meest bekeken accommodatie"
