@@ -3,7 +3,7 @@
   Plugin Name: Simpel Reserveren 3
   Plugin URI: http://www.simpelreserveren.nl
   Description: Boeking module om hotels, vakantieparken, jachthavens & campings te beheren
-  Version: 3.5.2
+  Version: 3.5.3
   Author: Sietze Keuning
   Author URI: http://www.kingwebsites.nl
   License: Creative Common
@@ -43,7 +43,7 @@ class WPSimpel_Reserveren
     public $hide_footer = 0;
     public $theme_settings;
 	public $prijsberekening;
-	public $version = '3.5.2';
+	public $version = '3.5.3';
 
 	private $wpdb;
     private $plugin_db_prefix = 'simpelreserveren_';
