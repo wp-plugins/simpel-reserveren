@@ -479,7 +479,7 @@ jQuery( document ).ready(function( $ ) {
 							$.post(	sr_translations.admin_ajax, $('#sr-formBoeken').serialize(), function(data){
 								$('#ajax-message').html('Uw gegevens zijn opgeslagen.<br/>U keert nu automatisch terug naar de homepage').addClass('alert alert-success');
 								setTimeout(function(){
-									document.location = sr_translations.root.replace('boeken.', '');
+									document.location = $('#doorsturen-url').val();
 								}, 10000);
 							} );
 						}

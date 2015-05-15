@@ -1112,8 +1112,10 @@ class WPSimpel_Reserveren
         if ($mode == 'site') {
             $html .= '</table>';
         }
-        if (isset($this->stap) && $this->stap == $this->laatste_stap) {
-            //unset($ _ SESSION['boeken']);
+        if (isset($this->stap) && $this->stap > 1 && $totaal <= 0) {
+	        echo "<script>document.location = '" . $this->accommodatie->boek_url .  "';</script>";
+	        $this->_exit();
+
         }
 
         return $html;

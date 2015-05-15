@@ -854,7 +854,8 @@ class SimpelReserveren_Update {
         $sql[] = "INSERT INTO `" . SIMPEL_DB_PREFIX . "settings` (id, title, field, value) VALUES ('7', 'Standaard aantal nachten', 'std-aantal-nachten', '7');";
         $sql[] = "INSERT INTO `" . SIMPEL_DB_PREFIX . "settings` (id, title, field, value, input_type) VALUES ('8', 'Conversie codes', 'conversie-codes', '', 'textarea');";
         $sql[] = "INSERT INTO `" . SIMPEL_DB_PREFIX . "settings` (id, title, field, value, input_type) VALUES ('9', 'Prijs incl. verpl. toeslagen', 'prijs-incl-verpl-toeslagen', '0', 'checkbox');";
-        
+        $sql[] = "INSERT INTO `" . SIMPEL_DB_PREFIX . "settings` (id, title, field, value) VALUES ('20', 'Doorsturen na boeking (URL)', 'url-na-boeking', '/');";
+
         $sql[] = "UPDATE `" . SIMPEL_DB_PREFIX . "settings` set multilang = '1' where id IN (1, 2)";
         $sql[] = "DELETE FROM  `" . SIMPEL_DB_PREFIX . "settings` where field IN ('multicamping', 'bootstrap', 'facebook-id', 'klant-type')";
 

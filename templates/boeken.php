@@ -220,6 +220,11 @@
                     </div>
                 <?php if (defined('SIMPEL_SHOW_CC') && SIMPEL_SHOW_CC) : ?>
                 <div class="row">
+                    <div class="col-sm-12 info">
+                        Heeft u geen creditcard mail dan uw reserveringsaanvraag naar <a href="mailto:reservations.vitalityamsterdam@corendonhotels.com">reservations.vitalityamsterdam@corendonhotels.com</a>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-6">
                         <label for="cc" id="lbl-cc"><?php echo __('Credit card number', 'simpelreserveren') ?> <span class="req">*</span></label>
                         <input type="text" class="form-control validate[creditCard, required]" id="cc" name="cc"/>
@@ -266,6 +271,7 @@
                         </div>
                     <?php else : ?>
                         <input type="hidden" name="action" id="action" value="opslaan-naw" />
+                        <input type="hidden" name="doorsturen-url" id="doorsturen-url" value="<?php echo $this->get_setting('url-na-boeking') ?>" />
                         <input type="hidden" name="boeken-id" id="boeken-id" value="<?php echo $_SESSION['boeken']['boeken_id'] ?>" />
                         <div class="row">
                             <div class="col-xs-12">
